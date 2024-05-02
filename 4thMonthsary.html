@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 4th Monthsary Love</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      line-height: 1.6;
+    }
+    /* Love Letter Styles */
+    .love-letter {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .section-title {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .quote {
+      font-style: italic;
+      color: #888;
+      margin-bottom: 20px;
+    }
+    /* Image Gallery Styles */
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .image-gallery img {
+      width: calc(33.33% - 10px);
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    /* Personal Qualities Styles */
+    .personal-qualities {
+      margin-top: 30px;
+    }
+    .personal-qualities h2 {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .personal-qualities ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .personal-qualities li {
+      margin-bottom: 10px;
+    }
+    .personal-qualities li:before {
+      content: "\2022";
+      color: #FF1493;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    /* Video Container Styles */
+    .video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  margin-top: 20px;
+}
+.video-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Media Queries */
+@media(max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .image-gallery img {
+    width: calc(50% - 10px); 
+  }
+  .image-gallery img::before {
+    content: attr(src);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy 4th Monthsary, Love!</h1>
+    <p>Dear Love,</p>
+    <div class="love-letter">
+      <p>It's hard to believe it's already been four months since we embarked on this beautiful journey together. In these past months, you've become not just my girlfriend but also my best friend, my confidante, and my source of endless joy.</p>
+      <p>Your presence in my life has brought so much happiness and meaning. Your laughter is like music to my ears, and your smile lights up even the darkest of days. With you by my side, every moment feels like a cherished memory.</p>
+      <p>I want to take this opportunity to thank you for all the love, support, and kindness you've shown me. Whether it's through your words of encouragement or your comforting embrace, you've always been there for me, and for that, I am eternally grateful.</p>
+      <p>As we celebrate our 4th monthsary, I find myself falling even more deeply in love with you. You are the most amazing person I've ever met, and I feel incredibly lucky to have you in my life. Here's to many more months of laughter, love, and unforgettable memories together.</p>
+      <div class="section-title">Memories Together</div>
+      <div class="quote">"The best thing to hold onto in life is each other." - Audrey Hepburn</div>
+      <div class="image-gallery">
+        <img src="1.jpg" alt="Image 1">
+        <img src="2.jpg" alt="Image 2">
+        <img src="3.jpg" alt="Image 3">
+      </div>
+      <div class="section-title">Our Special Moments</div>
+      <div class="video-container">
+        <video width="600" height="500" controls>
+  <source src="yess.mp4" type="video/mp4">
+</video>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
